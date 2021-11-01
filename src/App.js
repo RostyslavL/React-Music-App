@@ -1,7 +1,12 @@
 import React from 'react'
-// Adding Component to App
+// Adding Component to App:
 import Song from './components/Song'
 import Player from './components/Player'
+// Add scss Styles :
+import './styles/app.scss'
+// import utils:
+import data from './util.js'
+
 
 function App() {
   return (

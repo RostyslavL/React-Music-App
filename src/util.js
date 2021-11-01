@@ -42,6 +42,36 @@ function chillHop(){
             color:['#BA4A46','#FDF0DD'],
             audio:"./audio/Криминальный Бит - Топ Дог.mp3"
         },
+        {
+            name: "I GOT 6 SLUGS AND THEY ALL WANNA MEET U",
+            style: "PHONK",
+            artist: "PURE ANNA",
+            cover:"./covers/cover_4.jpg",
+            id:uuidv4(),
+            active:false,
+            color:['#BA4A46','#FDF0DD'],
+            audio:"./audio/I GOT 6 SLUGS AND THEY ALL WANNA MEET U.mp3"
+        },
+        {
+            name: "ARMED",
+            style: "PHONK",
+            artist: "l19u1d",
+            cover:"./covers/cover_5.jpg",
+            id:uuidv4(),
+            active:false,
+            color:['#BA4A46','#FDF0DD'],
+            audio:"./audio/ARMED [OUT NOW].mp3"
+        },
+        {
+            name: "LAVA METAL PHONK",
+            style: "PHONK",
+            artist: "l19u1d",
+            cover:"./covers/cover_6.jpg",
+            id:uuidv4(),
+            active:false,
+            color:['#BA4A46','#FDF0DD'],
+            audio:"./audio/LAVA - METAL PHONK.mp3"
+        },
     ]
     
 }

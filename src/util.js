@@ -8,7 +8,7 @@ function chillHop(){
             style: "PHONK",
             cover:"./covers/cover_1.jpg",
             id:uuidv4(),
-            active:false,
+            active:true,
             color:['#BA4A46','#FDF0DD'],
             audio:"./audio/l19u1d PHONK - AMNESIA.mp3"
         },
@@ -21,6 +21,26 @@ function chillHop(){
             active:false,
             color:['#BA4A46','#FDF0DD'],
             audio:"https://mp3.chillhop.com/serve.php/?mp3=9363"
+        },
+        {
+            name: "HIATUS PROD. SHADXWEVIL",
+            style: "PHONK",
+            artist: "EVILMANE",
+            cover:"./covers/cover_2.jpg",
+            id:uuidv4(),
+            active:false,
+            color:['#BA4A46','#FDF0DD'],
+            audio:"./audio/EVILMANE - HIATUS (PROD. SHADXWEVIL).mp3"
+        },
+        {
+            name: "Топ Дог",
+            style: "PHONK",
+            artist: "Криминальный Бит",
+            cover:"./covers/cover_3.jpg",
+            id:uuidv4(),
+            active:false,
+            color:['#BA4A46','#FDF0DD'],
+            audio:"./audio/Криминальный Бит - Топ Дог.mp3"
         },
     ]
     

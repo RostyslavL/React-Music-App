@@ -3,7 +3,7 @@ import LibrarySong from './LibrarySong'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCompactDisc} from '@fortawesome/free-solid-svg-icons'
 
-const Library = ({songs,setCurrentSong, audioRef, isPlaying}) => {
+const Library = ({songs,setCurrentSong, audioRef, isPlaying, setSongs}) => {
     return (
         <div className="library">            
             <h2>
@@ -20,6 +20,7 @@ const Library = ({songs,setCurrentSong, audioRef, isPlaying}) => {
                         id={song.id}
                         key={song.id}
                         isPlaying={isPlaying}
+                        setSongs={setSongs}
                     />
                 ))}
             </div>

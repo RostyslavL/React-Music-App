@@ -12,11 +12,21 @@ nav{
         transition: all 0.5s ease;
         border-radius: 25%;
         &:hover{
-            background: rgb(59, 59, 59)
+            background: rgb(59, 59, 59);
+            color: rgb(207, 211, 218);
+            transform: scale(1.05);
         }
     }
     h1{
         margin-left: 3rem;
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        button{
+            z-index: 10;
+        }
     }
 }

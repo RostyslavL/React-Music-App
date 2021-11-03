@@ -1,0 +1,22 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button{
+        background:transparent;
+        border: none;
+        cursor: pointer;
+        border: 2px solid rgb(207, 211, 218);
+        padding: 0.5rem;
+        transition: all 0.5s ease;
+        border-radius: 25%;
+        &:hover{
+            background: rgb(59, 59, 59)
+        }
+    }
+    h1{
+        margin-left: 3rem;
+        font-size: 2rem;
+    }
+}

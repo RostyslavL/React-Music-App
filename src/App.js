@@ -3,6 +3,7 @@ import React, {useState,useRef} from 'react'
 import Song from './components/Song'
 import Player from './components/Player'
 import Library from './components/Library'
+import Nav from './components/Nav'
 // Add scss Styles :
 import './styles/app.scss'
 // import utils:
@@ -22,6 +23,7 @@ function App() {
     currentTime:0,
     duration:0
   })
+  const [libraryStatus, seLibraryStatus] = useState(false)
   
   const timeUptadeHandler = (e) =>{
     const currentTime = e.target.currentTime
@@ -32,6 +34,10 @@ function App() {
   console.log(data)
   return (
     <div className="App">
+      <Nav 
+        libraryStatus={libraryStatus} 
+        seLibraryStatus={seLibraryStatus}
+      />
       <Song currentSong={currentSong}/>
       <Player
         audioRef={audioRef} 
@@ -47,6 +53,7 @@ function App() {
         songs={songs} 
         setCurrentSong={setCurrentSong}
         setSongs={setSongs}
+        libraryStatus={libraryStatus}
       />
       <audio
         onLoadedMetadata={timeUptadeHandler} 

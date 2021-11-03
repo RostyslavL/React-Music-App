@@ -3,9 +3,9 @@ import LibrarySong from './LibrarySong'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCompactDisc} from '@fortawesome/free-solid-svg-icons'
 
-const Library = ({songs,setCurrentSong, audioRef, isPlaying, setSongs}) => {
+const Library = ({songs,setCurrentSong, audioRef, isPlaying, setSongs, libraryStatus}) => {
     return (
-        <div className="library">            
+        <div className={libraryStatus ? "library active-library" : "library"}>            
             <h2>
                 <FontAwesomeIcon size="3x" icon={faCompactDisc}/>&nbsp;
                 Library

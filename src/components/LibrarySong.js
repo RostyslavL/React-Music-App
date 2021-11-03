@@ -37,7 +37,7 @@ const LibrarySong = ({
         <div className={song.active ? "library-song selected" : "library-song"} onClick={songSelectHandler} >
             <img alt={song.name} src={song.cover}/>
             <div className="song-description">
-                <FontAwesomeIcon icon={ song.active && faArrowLeft}  style={{ marginLeft: "12rem"}}/>
+                {song.active &&  <FontAwesomeIcon icon={faArrowLeft}  style={{ marginLeft: "12rem"}}/>} 
                 <h3>{song.artist}</h3>
                 <h4>{song.name}</h4>
                 <h5>{song.style}</h5>

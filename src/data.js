@@ -9,7 +9,7 @@ function chillHop(){
             cover:"./covers/cover_1.jpg",
             id:uuidv4(),
             active:true,
-            color:['#BA4A46','#FDF0DD'],
+            color:['#3b3b3bb3','#949393e6'],
             audio:"./audio/l19u1d PHONK - AMNESIA.mp3"
         },
         {
@@ -19,7 +19,7 @@ function chillHop(){
             cover:"https://chillhop.com/wp-content/uploads/2021/09/a2d710149876c8e0c9fb097840b2438fbc21bd37-1024x1024.jpg",
             id:uuidv4(),
             active:false,
-            color:['#BA4A46','#FDF0DD'],
+            color:['#3b3b3bb3','#949393e6'],
             audio:"https://mp3.chillhop.com/serve.php/?mp3=9363"
         },
         {
@@ -29,7 +29,7 @@ function chillHop(){
             cover:"./covers/cover_2.jpg",
             id:uuidv4(),
             active:false,
-            color:['#BA4A46','#FDF0DD'],
+            color:['#3b3b3bb3','#949393e6'],
             audio:"./audio/EVILMANE - HIATUS (PROD. SHADXWEVIL).mp3"
         },
         {
@@ -39,7 +39,7 @@ function chillHop(){
             cover:"./covers/cover_3.jpg",
             id:uuidv4(),
             active:false,
-            color:['#BA4A46','#FDF0DD'],
+            color:['#3b3b3bb3','#949393e6'],
             audio:"./audio/Криминальный Бит - Топ Дог.mp3"
         },
         {
@@ -49,7 +49,7 @@ function chillHop(){
             cover:"./covers/cover_4.jpg",
             id:uuidv4(),
             active:false,
-            color:['#BA4A46','#FDF0DD'],
+            color:['#3b3b3bb3','#949393e6'],
             audio:"./audio/I GOT 6 SLUGS AND THEY ALL WANNA MEET U.mp3"
         },
         {
@@ -59,7 +59,7 @@ function chillHop(){
             cover:"./covers/cover_5.jpg",
             id:uuidv4(),
             active:false,
-            color:['#BA4A46','#FDF0DD'],
+            color:['#3b3b3bb3','#949393e6'],
             audio:"./audio/ARMED [OUT NOW].mp3"
         },
         {
@@ -69,7 +69,7 @@ function chillHop(){
             cover:"./covers/cover_6.jpg",
             id:uuidv4(),
             active:false,
-            color:['#BA4A46','#FDF0DD'],
+            color:['#3b3b3bb3','#949393e6'],
             audio:"./audio/LAVA - METAL PHONK.mp3"
         },
     ]

@@ -7,7 +7,7 @@ import Nav from './components/Nav'
 // Add scss Styles :
 import './styles/app.scss'
 // import utils:
-import data from './util.js'
+import data from './data.js'
 
 
 function App() {

@@ -2,6 +2,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { playAudio } from '../util'
 
 const LibrarySong = ({
         song, 
@@ -29,16 +30,8 @@ const LibrarySong = ({
             }
         })
         setSongs(newSongs)
-
-        // Checking if song is playing
-        if(isPlaying){
-            const playPromise = audioRef.current.play()
-            if(playPromise !== undefined){
-                playPromise.then((audio) =>{
-                    audioRef.current.play()
-                })
-            }
-        }
+        // check if song is playing:
+        playAudio(audioRef, isPlaying)
     }
       
     return (

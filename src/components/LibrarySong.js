@@ -2,7 +2,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import { playAudio } from '../util'
 
 const LibrarySong = ({
         song, 
@@ -13,8 +12,8 @@ const LibrarySong = ({
         id,
         setSongs
     }) => {
-    const songSelectHandler = () =>{
-        setCurrentSong(song)
+    const songSelectHandler = async() =>{
+        await setCurrentSong(song)
         // Add active state :
         const newSongs = songs.map(song => {
             if(song.id === id){
@@ -31,7 +30,7 @@ const LibrarySong = ({
         })
         setSongs(newSongs)
         // check if song is playing:
-        playAudio(isPlaying, audioRef)
+        if(isPlaying) audioRef.current.play()
     }
       
     return (
